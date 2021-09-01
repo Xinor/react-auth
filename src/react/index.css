@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+.menu-item {
+  @apply no-underline text-purple-700 active:focus:hover:text-purple-700
+}
